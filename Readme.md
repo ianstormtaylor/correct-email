@@ -11,7 +11,8 @@
     
 ```js
 var correct = require('correct-email');
-correct('test@gmai.com');
+
+var correction = correct('test@gmai.com');
 ```
 
 ```js

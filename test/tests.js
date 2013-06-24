@@ -8,8 +8,8 @@ describe('correct-email', function () {
   });
 
   it('should return false when no suggestion is found', function () {
+    assert(false === correct('test@gmail.com'));
     assert(false === correct('ian@ianstormtaylor.com'));
-    assert(false === correct('guy@gmail.com'));
   });
 
   it('should return the local, domain and email for a suggestion', function () {
