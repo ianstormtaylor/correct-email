@@ -1,4 +1,3 @@
-
 # correct-email
 
   Correct common misspellings in an email address, based on [Kicksend's Mailcheck](https://github.com/Kicksend/mailcheck) library.
@@ -11,7 +10,6 @@
     
 ```js
 var correct = require('correct-email');
-
 var correction = correct('test@gmai.com');
 ```
 
@@ -26,7 +24,7 @@ var correction = correct('test@gmai.com');
 ## API
 
 ### correct(string)
-  Offers a correction for the given email `string`.
+  Returns a correction for the given email `string`, or `false` if nothing to correct.
 
 ### correct.threshold(number)
   Change the string distance threshold for matches.
