@@ -1,0 +1,17 @@
+{
+  "name": "correct-email",
+  "repo": "segmentio/correct-email",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Correct common misspellings in an email address, based on Kicksend's Mailcheck library.",
+  "keywords": ["email", "correct", "suggest"],
+  "dependencies": {
+    "ianstormtaylor/closest-match": "*",
+    "ianstormtaylor/email": "*",
+    "ramitos/tld.js": "*"
+  },
+  "development": {
+    "component/assert": "*"
+  },
+  "scripts": ["index.js"]
+}
