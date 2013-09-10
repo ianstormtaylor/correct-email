@@ -1,6 +1,5 @@
 
 var closest = require('closest-match')
-  , indexOf = require('indexof')
   , parse = require('email').parse
   , parseTld = require('tld.js');
 
